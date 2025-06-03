@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class AbtraksiKlas {
+class AbstraksiKlas {
     private: string x, y;
 
     public:
@@ -17,3 +17,11 @@ class AbtraksiKlas {
         cout << "y = " << y << endl;
     }
 };
+
+int main() {
+    AbstraksiKlas ak;
+    ak.setXY("Yogyakarta", "Kampus");
+    ak.display();
+
+    return 0;
+}
