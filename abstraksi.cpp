@@ -11,5 +11,9 @@ class AbtraksiKlas {
         x = a;
         y = b;
     }
-    
-}
+    //meanmpilkan nilai
+    void display() {
+        cout << "x = " << x << endl;
+        cout << "y = " << y << endl;
+    }
+};
